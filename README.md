@@ -1,16 +1,39 @@
-## Hi there 👋
+# 就活管理アプリ
 
-<!--
-**Shimao2512/Shimao2512** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+就職活動中の企業や選考状況を管理するWebアプリです。
 
-Here are some ideas to get you started:
+## 開発した理由
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+応募企業が増えると選考状況を管理するのが大変になると感じたため、
+企業ごとの選考状況を一つの画面で管理できるようにしました。
+
+## 使用技術
+
+- Java
+- Spring Boot
+- PostgreSQL
+- HTML / CSS / JavaScript
+- Docker
+
+## 主な機能
+
+- ユーザー登録・ログイン
+- 企業登録
+- 選考状況の管理
+- 面接日程の管理
+- メモ機能
+
+## 開発期間
+
+2027年1月〜3月
+
+## 工夫した点
+
+ログインユーザーごとに企業情報を分離し、
+他のユーザーの情報を閲覧できないようにしました。
+
+## 今後追加したい機能
+
+- カレンダー連携
+- メール通知
+- スマートフォン向けUI
